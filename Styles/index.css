@@ -19,7 +19,7 @@ body {
   background-color: black;
   overflow-x: hidden;
   overflow-y: auto;
-  background-image: url("/images/bg.png");
+  background-image: url("./images/bg.png");
   line-height: 1.7;
 }
 
@@ -41,13 +41,13 @@ body {
 .btn-primary:hover, .btn-primary.hovered {
   /*background-color: rgba(66, 134, 244, 0.5);*/
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4286f4+1,005cf2+99 */
-  background: url("/Images/bg.png"), rgb(85, 174, 203);
+  background: url("./Images/bg.png"), rgb(85, 174, 203);
   /* Old browsers */
-  background: url("/Images/bg.png"), -moz-linear-gradient(top, rgba(85, 174, 203, 0.75) 1%, rgba(120, 199, 224, 0.75) 100%);
+  background: url("./Images/bg.png"), -moz-linear-gradient(top, rgba(85, 174, 203, 0.75) 1%, rgba(120, 199, 224, 0.75) 100%);
   /* FF3.6-15 */
-  background: url("/Images/bg.png"), -webkit-linear-gradient(top, rgba(85, 174, 203, 0.75) 1%, rgba(120, 199, 224, 0.75) 100%);
+  background: url("./Images/bg.png"), -webkit-linear-gradient(top, rgba(85, 174, 203, 0.75) 1%, rgba(120, 199, 224, 0.75) 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: url("/Images/bg.png"), linear-gradient(to bottom, rgba(85, 174, 203, 0.75) 1%, rgba(120, 199, 224, 0.75) 100%);
+  background: url("./Images/bg.png"), linear-gradient(to bottom, rgba(85, 174, 203, 0.75) 1%, rgba(120, 199, 224, 0.75) 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#55aecb', endColorstr='#78c7e0', GradientType=0);
   /* IE6-9 */
@@ -74,13 +74,13 @@ body {
 }
 
 .founders-btn-colour:hover, .founders-btn-colour.hovered {
-  background: url("/Images/bg.png"), rgb(227, 195, 81);
+  background: url("./Images/bg.png"), rgb(227, 195, 81);
   /* Old browsers */
-  background: url("/Images/bg.png"), -moz-linear-gradient(top, rgba(227, 195, 81, 0.75) 1%, rgba(175, 146, 40, 0.75) 100%);
+  background: url("./Images/bg.png"), -moz-linear-gradient(top, rgba(227, 195, 81, 0.75) 1%, rgba(175, 146, 40, 0.75) 100%);
   /* FF3.6-15 */
-  background: url("/Images/bg.png"), -webkit-linear-gradient(top, rgba(227, 195, 81, 0.75) 1%, rgba(175, 146, 40, 0.75) 100%);
+  background: url("./Images/bg.png"), -webkit-linear-gradient(top, rgba(227, 195, 81, 0.75) 1%, rgba(175, 146, 40, 0.75) 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: url("/Images/bg.png"), linear-gradient(to bottom, rgba(227, 195, 81, 0.75) 1%, rgba(175, 146, 40, 0.75) 100%);
+  background: url("./Images/bg.png"), linear-gradient(to bottom, rgba(227, 195, 81, 0.75) 1%, rgba(175, 146, 40, 0.75) 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e3c351', endColorstr='#af9228', GradientType=0);
   /* IE6-9 */
@@ -232,11 +232,11 @@ a:active {
   padding: 22px 50px;
   width: 241px;
   height: 83px;
-  background: url("/Images/large-yellow.png");
+  background: url("./Images/large-yellow.png");
 }
 
 #index-btn:hover {
-  background: url("/Images/large-yellow-hover.png");
+  background: url("./Images/large-yellow-hover.png");
 }
 
 #index-btn span {
@@ -251,11 +251,11 @@ a:active {
   padding: 22px 0px;
   width: 241px;
   height: 83px;
-  background: url("/Images/large-yellow.png");
+  background: url("./Images/large-yellow.png");
 }
 
 #btn-download:hover {
-  background: url("/Images/large-yellow-hover.png");
+  background: url("./Images/large-yellow-hover.png");
 }
 
 #btn-download span {
@@ -263,7 +263,7 @@ a:active {
 }
 
 .featured-news {
-  background: url("/Images/featured-news-tag.png");
+  background: url("./Images/featured-news-tag.png");
   width: 144px;
   height: 25px;
   font-size: 9px;
@@ -279,7 +279,7 @@ a:active {
 }
 
 .founders-exclusive p {
-  background: url("/Images/founder-exclusive-tag.png");
+  background: url("./Images/founder-exclusive-tag.png");
   width: 187px;
   height: 25px;
   margin: auto;
@@ -422,7 +422,7 @@ nav {
   padding: 12px 0px;
   text-transform: uppercase;
   border-radius: 0;
-  background: url("/Images/nav-bar-yellow.png");
+  background: url("./Images/nav-bar-yellow.png");
   letter-spacing: 1.5px;
   color: rgba(240, 240, 240, 1);
   text-decoration: none;
@@ -439,7 +439,7 @@ nav {
 
 #btn-join:hover {
   color: white;
-  background: url("/Images/nav-bar-yellow-hover.png");
+  background: url("./Images/nav-bar-yellow-hover.png");
   box-shadow: 0px 0px 10px rgba(66, 134, 244, 0.5);
   text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.25);
 }
@@ -454,7 +454,7 @@ nav {
   padding: 12px 0px;
   text-transform: uppercase;
   border-radius: 0;
-  background: url("/Images/nav-bar-yellow.png");
+  background: url("./Images/nav-bar-yellow.png");
   letter-spacing: 1.25px;
   color: rgba(240, 240, 240, 1);
   text-decoration: none;
@@ -470,7 +470,7 @@ nav {
 }
 
 #btn-join-download:hover {
-  background: url("/Images/nav-bar-yellow-hover.png");
+  background: url("./Images/nav-bar-yellow-hover.png");
 }
 
 #btn-join-download span {
@@ -498,7 +498,7 @@ nav {
 }
 
 #btn-join-forge:hover {
-  background: url("/Images/nav-bar-yellow-hover.png");
+  background: url("./Images/nav-bar-yellow-hover.png");
 }
 
 #btn-join-forge span {
@@ -710,11 +710,11 @@ nav .dropdown-menu {
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.75);
   margin: 0;
   background-color: rgba(66, 134, 244, 0.5);
-  background-image: url("/Images/bg.png");
+  background-image: url("./Images/bg.png");
 }
 
 #btn-purchase {
-  background-image: url("/Images/large-yellow.png");
+  background-image: url("./Images/large-yellow.png");
   width: 241px;
   height: 83px;
   font-size: 30px;
@@ -729,11 +729,11 @@ nav .dropdown-menu {
 }
 
 #btn-purchase:hover {
-  background-image: url("/Images/large-yellow-hover.png");
+  background-image: url("./Images/large-yellow-hover.png");
 }
 
 #register-account {
-  background-image: url("/Images/blue-register.png");
+  background-image: url("./Images/blue-register.png");
   width: 241px;
   height: 83px;
   font-size: 30px;
@@ -747,7 +747,7 @@ nav .dropdown-menu {
 }
 
 #register-account:hover {
-  background-image: url("/Images/blue-register-hover.png");
+  background-image: url("./Images/blue-register-hover.png");
 }
 
 #already-registered {
@@ -870,7 +870,7 @@ nav .dropdown-menu {
   right: 0;
   width: 150px;
   height: 100%;
-  background: url("/Images/homepage-top-banner.png");
+  background: url("./Images/homepage-top-banner.png");
   cursor: pointer;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   text-align: center;
@@ -884,7 +884,7 @@ nav .dropdown-menu {
 }
 
 .thumbnail-more:hover {
-  background: url("/Images/homepage-top-banner-hover.png");
+  background: url("./Images/homepage-top-banner-hover.png");
 }
 
 .thumbnail:hover .thumbnail-image {
@@ -974,7 +974,7 @@ nav .dropdown-menu {
 }
 
 #popup-panel-side, #popup-panel-side-alt {
-  background: url("/Images/buy-fp-bg-area.jpg");
+  background: url("./Images/buy-fp-bg-area.jpg");
   background-size: cover;
   text-align: center;
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
@@ -1082,14 +1082,14 @@ nav .dropdown-menu {
 .timeline-item-left {
   width: 295px;
   height: 246px;
-  background: url('/Images/forge-timeline-item-left.png');
+  background: url('./Images/forge-timeline-item-left.png');
   position: absolute;
   top: 0;
   right: -24.5px;
 }
 
 .timeline-item-left.timeline-complete {
-  background: url('/Images/forge-timeline-item-completed-left.png');
+  background: url('./Images/forge-timeline-item-completed-left.png');
 }
 
 .timeline-item-right p {
@@ -1099,13 +1099,13 @@ nav .dropdown-menu {
 .timeline-item-right {
   width: 295px;
   height: 246px;
-  background: url('/Images/forge-timeline-item-right.png');
+  background: url('./Images/forge-timeline-item-right.png');
   position: absolute;
   left: -24.5px;
 }
 
 .timeline-item-right.timeline-complete {
-  background: url('/Images/forge-timeline-item-completed-right.png');
+  background: url('./Images/forge-timeline-item-completed-right.png');
 }
 
 /* GAME */
@@ -1587,7 +1587,7 @@ nav .dropdown-menu {
 }
 
 .article-media img {
-  background-image: url("/Images/bg.png");
+  background-image: url("./Images/bg.png");
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -1657,19 +1657,19 @@ nav .dropdown-menu {
 }
 
 .silhouette-col {
-  background-image: url("/Images/col-bg.jpg");
+  background-image: url("./Images/col-bg.jpg");
 }
 
 .silhouette-itr {
-  background-image: url("/Images/itr-bg.jpg");
+  background-image: url("./Images/itr-bg.jpg");
 }
 
 .silhouette-lsf {
-  background-image: url("/Images/lsf-bg.jpg");
+  background-image: url("./Images/lsf-bg.jpg");
 }
 
 .silhouette-ts {
-  background-image: url("/Images/ts-bg.jpg");
+  background-image: url("./Images/ts-bg.jpg");
 }
 
 .article-image img {
@@ -1888,22 +1888,22 @@ nav .dropdown-menu {
 
 .highscore-tier-1 {
   background-color: #dbab0f;
-  background-image: url("/Images/bg.png");
+  background-image: url("./Images/bg.png");
 }
 
 .highscore-tier-2 {
   background-color: #acb4c1;
-  background-image: url("/Images/bg.png");
+  background-image: url("./Images/bg.png");
 }
 
 .highscore-tier-3 {
   background: #9b5c0a;
-  background-image: url("/Images/bg.png");
+  background-image: url("./Images/bg.png");
 }
 
 .highscore-tier-4 {
   background: #5b3816;
-  background-image: url("/Images/bg.png");
+  background-image: url("./Images/bg.png");
 }
 
 .highscore-timer {
@@ -1920,22 +1920,22 @@ nav .dropdown-menu {
 
 .highscore-col {
   background-color: #C45033;
-  background-image: url("/Images/bg-col.png");
+  background-image: url("./Images/bg-col.png");
 }
 
 .highscore-itr {
   background-color: #4C2740;
-  background-image: url("/Images/bg-itr.png");
+  background-image: url("./Images/bg-itr.png");
 }
 
 .highscore-lsf {
   background-color: #616F39;
-  background-image: url("/Images/bg-lsf.png");
+  background-image: url("./Images/bg-lsf.png");
 }
 
 .highscore-syn {
   background-color: #A0293D;
-  background-image: url("/Images/bg-syn.png");
+  background-image: url("./Images/bg-syn.png");
 }
 
 .highscore-col-alpha {
@@ -2045,7 +2045,7 @@ nav .dropdown-menu {
   top: 0;
   bottom: 0;
   margin: auto;
-  background-image: url("/Images/icon-col.svg");
+  background-image: url("./Images/icon-col.svg");
   background-repeat: no-repeat;
   background-size: 50px 50px;
   width: 50px;
@@ -2061,7 +2061,7 @@ nav .dropdown-menu {
   top: 0;
   bottom: 0;
   margin: auto;
-  background-image: url("/Images/icon-itr.svg");
+  background-image: url("./Images/icon-itr.svg");
   background-repeat: no-repeat;
   background-size: 50px 50px;
   width: 50px;
@@ -2077,7 +2077,7 @@ nav .dropdown-menu {
   top: 0;
   bottom: 0;
   margin: auto;
-  background-image: url("/Images/icon-lsf.svg");
+  background-image: url("./Images/icon-lsf.svg");
   background-repeat: no-repeat;
   background-size: 50px 50px;
   width: 50px;
@@ -2093,7 +2093,7 @@ nav .dropdown-menu {
   top: 0;
   bottom: 0;
   margin: auto;
-  background-image: url("/Images/icon-ts.svg");
+  background-image: url("./Images/icon-ts.svg");
   background-repeat: no-repeat;
   background-size: 50px 50px;
   width: 50px;
@@ -2109,7 +2109,7 @@ nav .dropdown-menu {
   top: 0;
   bottom: 0;
   margin: auto;
-  background-image: url("/Images/icon-progress.svg");
+  background-image: url("./Images/icon-progress.svg");
   background-repeat: no-repeat;
   background-size: 50px 50px;
   width: 50px;
@@ -2179,7 +2179,7 @@ nav .dropdown-menu {
   font-size: 12px;
   color: rgba(150, 150, 150, 1);
   background-color: rgba(0, 0, 0, 0.75);
-  background-image: url("/Images/bg.png");
+  background-image: url("./Images/bg.png");
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
 }
@@ -2330,7 +2330,7 @@ footer {
   background-color: rgba(25, 25, 25, 1);
   padding-top: 50px;
   padding-bottom: 50px;
-  background-image: url("/Images/bg.png");
+  background-image: url("./Images/bg.png");
   overflow: visible !important;
   box-shadow: 0px -25px 25px rgba(0, 0, 0, 0.5);
 }
@@ -2338,7 +2338,7 @@ footer {
 #footer-fade {
   width: 100%;
   height: 35px;
-  background-image: url("/Images/footer.png");
+  background-image: url("./Images/footer.png");
   position: absolute;
   top: -35px;
 }
@@ -2426,7 +2426,7 @@ footer {
   vertical-align: top;
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
-  background-image: url("/Images/bg.png");
+  background-image: url("./Images/bg.png");
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -2576,7 +2576,7 @@ form button {
   margin: 5px 0;
   background-color: black;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
-  background-image: url("/Images/pop-up-background.jpg");
+  background-image: url("./Images/pop-up-background.jpg");
   background-size: cover;
 }
 
@@ -2682,7 +2682,7 @@ form button {
   z-index: 1;
   padding: 25px 0;
   border-top: 1px solid white;
-  background-image: url("/Images/bg.png");
+  background-image: url("./Images/bg.png");
 }
 
 #cookies .col {
@@ -2692,7 +2692,7 @@ form button {
 /* SPLASH */
 #splash-section {
   height: 100%;
-  background-image: url("/Images/bg.png");
+  background-image: url("./Images/bg.png");
   background-color: rgba(0, 0, 0, 0.75);
 }
 
@@ -2803,11 +2803,11 @@ form button {
 }
 
 .pack-content {
-  background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 50%), url("images/e3-pack.jpg");
+  background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 50%), url("./Images/e3-pack.jpg");
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 50%), url("images/e3-pack.jpg");
+  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 50%), url("./Images/e3-pack.jpg");
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 50%), url("images/e3-pack.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 50%), url("./Images/e3-pack.jpg");
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   background-repeat: no-repeat;
   background-position: top right;
@@ -2823,7 +2823,7 @@ form button {
 
 /* STORY */
 #story-capital {
-  background-image: url("/Images/capital.jpg");
+  background-image: url("./Images/capital.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2931,13 +2931,13 @@ form button {
   margin-top: 50px;
   padding: 30px 50px;
   font-size: 25px;
-  background: url("/Images/bg.png"), rgb(244, 206, 95);
+  background: url("./Images/bg.png"), rgb(244, 206, 95);
   /* Old browsers */
-  background: url("/Images/bg.png"), -moz-linear-gradient(top, rgba(244, 206, 95, 0.8) 1%, rgba(201, 168, 70, 0.8) 100%);
+  background: url("./Images/bg.png"), -moz-linear-gradient(top, rgba(244, 206, 95, 0.8) 1%, rgba(201, 168, 70, 0.8) 100%);
   /* FF3.6-15 */
-  background: url("/Images/bg.png"), -webkit-linear-gradient(top, rgba(244, 206, 95, 0.8) 1%, rgba(201, 168, 70, 0.8) 100%);
+  background: url("./Images/bg.png"), -webkit-linear-gradient(top, rgba(244, 206, 95, 0.8) 1%, rgba(201, 168, 70, 0.8) 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: url("/Images/bg.png"), linear-gradient(to bottom, rgba(244, 206, 95, 0.8) 1%, rgba(201, 168, 70, 0.8) 100%);
+  background: url("./Images/bg.png"), linear-gradient(to bottom, rgba(244, 206, 95, 0.8) 1%, rgba(201, 168, 70, 0.8) 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   letter-spacing: 2px;
   font-weight: bold;
@@ -2954,13 +2954,13 @@ form button {
 
 .founders-btn:hover, .founders-btn.hovered {
   color: white;
-  background: url("/Images/bg.png"), rgb(227, 195, 81);
+  background: url("./Images/bg.png"), rgb(227, 195, 81);
   /* Old browsers */
-  background: url("/Images/bg.png"), -moz-linear-gradient(top, rgba(244, 206, 95, 1) 0.9%, rgba(201, 168, 70, 0.9) 100%);
+  background: url("./Images/bg.png"), -moz-linear-gradient(top, rgba(244, 206, 95, 1) 0.9%, rgba(201, 168, 70, 0.9) 100%);
   /* FF3.6-15 */
-  background: url("/Images/bg.png"), -webkit-linear-gradient(top, rgba(244, 206, 95, 0.9) 1%, rgba(201, 168, 70, 0.9) 100%);
+  background: url("./Images/bg.png"), -webkit-linear-gradient(top, rgba(244, 206, 95, 0.9) 1%, rgba(201, 168, 70, 0.9) 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: url("/Images/bg.png"), linear-gradient(to bottom, rgba(244, 206, 95, 0.9) 1%, rgba(201, 168, 70, 0.9) 100%);
+  background: url("./Images/bg.png"), linear-gradient(to bottom, rgba(244, 206, 95, 0.9) 1%, rgba(201, 168, 70, 0.9) 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   box-shadow: 0px 0px 25px rgba(244, 206, 9, 0.75);
   text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
@@ -3050,7 +3050,7 @@ form button {
   }
 
   .video-foreground {
-    background: url("/Images/overview.jpg");
+    background: url("./Images/overview.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
