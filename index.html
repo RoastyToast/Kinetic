@@ -1,0 +1,578 @@
+<html>
+
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-T292HN8');</script>
+  <!-- End Google Tag Manager -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta charset="utf-8">
+  <title>Kinetic</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:description" content="" />
+  <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+  <meta name="description" content="Kinetic is a next-generation multiplayer online arena. It hosts the semi, tactical, and dynamic world of the arena, which opens in TBA.">
+  <meta property="og:title" content="Kinetic Multiplayer Battle Arena">
+  <meta property="og:description" content="Kinetic is a next-generation multiplayer online arena. It hosts the semi, tactical, and dynamic world of the arena, which opens in TBA.">
+  <meta name="twitter:site" content="@playkinetic">
+  <meta name="twitter:creator" content="@!mpacgamesllc">
+  <link rel="icon" type="image/ico" href="/Images/icon.ico">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="/Styles/index.css" rel="stylesheet">
+  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="/JavaScript/sha2.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="/JavaScript/index.js"></script>
+  <script type="text/javascript">
+    window.SITE_BASE_URL = "";
+    window.STATIC_BASE_URL = "/Pages";
+    window.loggedIn = "false" === "true";
+  </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-60977616-4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-60977616-4');
+  </script>
+  <script type="text/javascript" src="//static.xsolla.com/embed/paystation/1.0.7/widget.min.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      window.mvxGetToken = function(success, error) {
+        $.ajax({
+          url: SITE_BASE_URL + '/account/token',
+          type: 'GET',
+          success: success,
+          error: error
+        });
+      };
+      $('.btn-purchase-founders').click(function(e) {
+        e.preventDefault();
+
+      });
+    });
+  </script>
+</head>
+
+<body id="index">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T292HN8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <div id="section-top" class="section">
+
+    <img id="index-image" class="section-bg" src="/Images/main-rotator-bg-1.jpg" />
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="/"><img src="/Images/Kinetic.png" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/Pages/game.html">Overview</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Pages/story">Story</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Pages/news">News</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="//ayphix.com/forums/index.php?/forum/23-mpact/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Community
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="//ayphix.com/forums/index.php?/forum/23-mpact/">Forums</a>
+                <a class="dropdown-item" href="//discord.gg/rnp2AeA">Discord</a>
+              </div>
+            </li>
+          </ul>
+
+          <div class="above-join">
+            <a id="sign-in" class="open-lightbox" data-id="#lightbox-sign-in">Sign In</a>
+            <span class="above-split">&nbsp;|&nbsp; </span>
+            <a id="create-account" class="open-lightbox" data-id="#lightbox-sign-up">Create Account</a>
+          </div>
+          <a id="btn-join" href="#section-founder"><span>BECOME A</span><br>FOUNDER</a>
+
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="jumbotron">
+
+        <div id="index-text-container" class="text-center">
+          <h1 class="text-center">THE ARENA IS NOW LIVE</h1>
+          <div class="founders-exclusive">
+            <div class="founders-exclusive-line"></div>
+            <p>FOUNDERS EXCLUSIVE</p>
+          </div>
+          <h4 class="text-center">Kinetic is an upcoming next-generation combat battle arena, featuring 6 vs 6 battles. Become a founder today to get exclusive first access and join the community shaping the future of Kinetic.</h4>
+          <p><a id="index-btn" class="btn btn-primary btn-lg" href="#section-founder" role="button"><span>BECOME A</span><br>FOUNDER</a></p>
+        </div>
+        <div class="thumbnails">
+          <div class="row">
+            <div class="col-lg">
+              <div class="thumbnail container">
+                <img class="thumbnail-image" src="/Images/homepage-box-left.jpg" />
+                <div class="founders-exclusive">
+                  <p>FOUNDERS EXCLUSIVE</p>
+                </div>
+                <p class="thumbnail-text">Exclusive Founders<br>Skin Kit</p>
+              </div>
+            </div>
+            <div class="col-lg">
+              <div class="thumbnail container">
+                <img class="thumbnail-image" src="/Images/homepage-box-right.jpg" />
+                <div class="founders-exclusive">
+                  <p>FOUNDERS EXCLUSIVE</p>
+                </div>
+                <p class="thumbnail-text">12-Months<br>Prime</p>
+                <a class="thumbnail-more" href="#section-founder">AND<br>MUCH<br>MORE!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section-top-arrow"><a href="#section-boxes"><i class="fas fa-angle-down"></i></a></div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="section-boxes" class="section section-split">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 section-split-item">
+          <img class="section-bg" src="/Images/what-is-kinetic.jpg" />
+          <div class="jumbotron">
+            <div class="text-container">
+              <h1>What is<br>Kinetic?</h1>
+              <div class="row">
+                <div class="col-md-8 no-padding">
+                  <p>Kinetic is a sprawling, ambitious, cutting-edge combat battle arena. Charge forth from the teeming social hub to engage in epic 6 vs 6 tactical matches, or to hunt for new skins and Ruined Stones in the semi open
+                    world of this unparalleled free-to-play title.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 section-split-item">
+          <img class="section-bg" src="/Images/pickup.jpg" />
+          <div class="jumbotron">
+            <div class="text-container">
+              <h1>Kinetic<br>Online<br>Moba</h1>
+              <div class="row">
+                <div class="col-md-8 no-padding">
+                  <p><a class="btn btn-primary btn-lg" target="_blank" href="https://www.youtube.com/watch?v=" role="button"><span class="btn-primary-icon"><i class="fas fa-play"></i></span>Watch Gameplay Trailer</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="section-founder" class="section">
+    <img class="section-bg bg-alpha" src="/Images/founders-benefits-image-background.jpg" />
+    <div class="container">
+      <div class="popup-panel">
+        <div class="jumbotron">
+          <div class="row">
+            <div id="popup-panel-main" class="col-lg-8 no-padding">
+              <img class="section-bg" src="/Images/founders-benefits-image.jpg" />
+              <div class="text-container">
+                <h1>FOUNDER BENEFITS</h1>
+                <div class="col-md-8 no-padding">
+                  <p>Founders are the first players who will get access to the Planet of Morphia and are helping shape the direction and evolution of the game. These players will be able to experience the world developing around them as rapid
+                    developments adapt to the gameplay with exclusive access.</p>
+                  <ul>
+                    <li><b>Early Access to The Arena (TBA)</b></li>
+                    <li><b>12 Months Prime Access</b></li>
+                    <li><b>Founders' Skin Kit</b></li>
+                    <li><b>Exclusive Founders' Cosmetics:</b></li>
+                    <ul>
+                      <li>Emote, Icon & Discord Rank</li>
+                    </ul>
+                    <li><b>Access To:</b></li>
+                    <ul>
+                      <li>Founders Prime Hall - in-game social area</li>
+                      <li>Founders Prime Forum - join the discussion</li>
+                    </ul>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div id="popup-panel-side" class="col-lg-4 no-padding">
+              <div class="text-container">
+                <h2><strong>GET EXCLUSIVE ACCESS</strong></h2>
+                <p>The Arena is open to Founders only as it expands and evolves. Discover the Planet of Morphia and all that Kinetic: Online Moba has to offer.</p>
+
+                <p><a id="btn-purchase" class="btn btn-primary btn-lg" href="javascript:;" role="button"><span>BECOME A FOUNDER</span><br>$14.99</a></p>
+                <p class="recommended-specs">Check our <a href="/article?articleId=11#recommended-specs" target="_blank">Recommended PC Specs</a></p>
+
+                <div class="popup-panel-side-bottom">
+                  <p>LIMITED AVAILABILITY</p>
+                </div>
+              </div>
+            </div>
+            <div id="popup-panel-side-alt" class="col-lg-4 no-padding">
+              <div class="text-container">
+                <h3>YOU NEED TO REGISTER BEFORE YOU CAN BECOME A FOUNDER</h3>
+                <form id="founder-register-form">
+                  <div class="form-group">
+                    <img src="/Images/display-name.svg" /><input type="text" class="form-control first-focus" id="founder-register-username" aria-describedby="nameHelp" placeholder="Display Name">
+                    <!--<small id="nameHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+                  </div>
+                  <div class="form-group">
+                    <img src="/Images/email.svg" /><input type="email" class="form-control" id="founder-register-email" aria-describedby="emailHelp" placeholder="Email Address">
+                    <small class="form-text invalid-feedback email-address-taken" style="display: none">Email address already in use.</small>
+                    <!--<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+                  </div>
+                  <div class="form-group">
+                    <img src="/Images/password.svg" /><input type="password" class="form-control" id="founder-register-password" aria-describedby="passwordHelp1" placeholder="Password">
+                    <!--<small id="passwordHelp1" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+                  </div>
+                  <div class="form-group">
+                    <img src="/Images/confirm-password.svg" /><input type="password" class="form-control" id="founder-register-password-confirm" aria-describedby="passwordHelp2" placeholder="Confirm Password">
+                    <!--<small id="passwordHelp2" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+                  </div>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input id="founder-iaccept" type="checkbox" class="form-check-input">
+                      I agree with the <a href="/terms" target="_blank">privacy policy</a>.
+                    </label>
+                  </div>
+                  <button id="register-account" type="submit" class="btn btn-primary" alt-text="Creating Account..." role="button"><span>REGISTER</span><br>ACCOUNT</button>
+                </form>
+                <p id="already-registered" class="text-center open-lightbox" data-id="#lightbox-sign-in">Already have an account? Login <a href="javascript:;">here</a>.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="section">
+    <div id="footer-fade"></div>
+    <div class="container">
+      <div id="footer-links">
+        <a href="//" target="_blank"><img id="automaton-logo" src="/Images/impactgames-full.png" /></a>
+        <ul class="automaton-links">
+          <li><a href="//" target="_blank">Careers</a></li>
+          <li><a href="//" target="_blank">Contact</a></li>
+        </ul>
+        <div class="footer-social">
+          <div class="footer-social-text">Follow Us:</div>
+          <a href="//twitter.com/" target="_blank"><img title="Twitter" src="/Images/twitter.svg" /></a>
+          <a href="//www.facebook.com/" target="_blank"><img title="Facebook" src="/Images/facebook.svg" /></a>
+          <a href="//www.reddit.com/r/" target="_blank"><img title="Reddit" src="/Images/reddit.svg" /></a>
+          <a href="//www.youtube.com/" target="_blank"><img title="YouTube" src="/Images/youtube.svg" /></a>
+          <a href="//www.twitch.tv/" target="_blank"><img title="Twitch" src="/Images/twitch.svg" /></a>
+          <a href="//discord.gg/rnp2AeA" target="_blank"><img title="Discord" src="/Images/discord.svg" /></a>
+          <a href="//www.instagram.com/" target="_blank"><img title="Instagram" src="/Images/instagram.svg" /></a>
+        </div>
+      </div>
+      <div class="footer-text">Copyright &copy; 2018 !mpact Games LLC. All rights reserved. Use of this site is subject to our <a href="/terms" target="_blank">privacy policy</a>.</div>
+      <div class="footer-text-support">Have a question or need support? Log a <a href="/report" target="_blank">bug report here</a> or get help on our <a href="//discord.gg/rnp2AeA" target="_blank">Discord Channel</a> or <a href="https://ayphix.com/forums/index.php?/forum/23-mpact/"
+          target="_blank">Forum</a>.</div>
+      <div id="footer-scroll-top"><a href="#">scroll top</a></div>
+    </div>
+  </footer>
+</body>
+<!--<div id="cookies">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>Cookies</h1>
+                <p>Blah blah cookies...</p>
+            </div>
+            <div class="col text-right">
+                <p><a class="btn btn-primary btn-lg" role="button">Accept</a></p>
+                <p><a class="btn btn-primary btn-lg" role="button">Decline</a></p>
+            </div>
+    </div>
+</div>-->
+<div id="lightbox">
+  <div id="lightbox-area"></div>
+  <div class="container">
+    <div id="lightbox-holder"></div>
+    <div id="close-btn" class="close-lightbox"><i class="fas fa-times"></i></div>
+  </div>
+</div>
+<div id="lightbox-screens">
+  <div id="lightbox-comment" class="lightbox-screen">
+    <div class="lightbox-header">
+      <h1>Comment</h1>
+    </div>
+    <div class="row">
+      <div class="offset-sm-2 col-sm-8">
+        <form id="comment-form" class="text-center">
+          <div class="form-group text-left">
+            <label class="reply-to-name" for="inputComment">Reply to: Oliver</label>
+            <p class="reply-to-comment"></p>
+            <textarea maxlength="250" type="text" class="form-control first-focus" rows="4" id="inputComment" aria-describedby="nameHelp" placeholder="Write comment here..."></textarea>
+          </div>
+          <p id="comment-char-count"></p>
+          <button type="submit" class="btn btn-primary">Post</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div id="lightbox-sign-in" class="lightbox-screen">
+    <div class="lightbox-header">
+      <h1>Sign In</h1>
+    </div>
+    <div class="row">
+      <div class="offset-sm-4 col-sm-4">
+        <form id="login-form">
+          <div class="form-group">
+            <img src="/static/images/email.svg" /><input type="email" class="form-control first-focus" id="inputEmailSignIn" aria-describedby="emailHelp" placeholder="Email Address">
+            <small class="form-text invalid-feedback email-feedback" style="display: none"></small>
+            <!--<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+          </div>
+          <div class="form-group">
+            <img src="/static/images/password.svg" /><input type="password" class="form-control" id="inputPasswordSignIn" aria-describedby="passwordHelp1" placeholder="Password">
+            <small class="form-text invalid-feedback password-feedback" style="display: none"></small>
+            <!--<small id="passwordHelp1" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+          </div>
+          <button id="login-button" type="submit" class="btn btn-primary" alt-text="Logging in...">Login</button>
+        </form>
+        <p class="text-center">Forgotten your password? Click <a class="open-lightbox" href="javascript:;" data-id="#lightbox-forgot-password">here</a>.</p>
+        <p class="text-center">Don't have an account? Join <a class="open-lightbox" href="javascript:;" data-id="#lightbox-sign-up">here</a>.</p>
+      </div>
+    </div>
+  </div>
+  <div id="lightbox-sign-up" class="lightbox-screen">
+    <div class="lightbox-header">
+      <h1>Join Now</h1>
+    </div>
+    <div class="row">
+      <div class="offset-sm-1 col-sm-6">
+        <h2>Account Rewards</h2>
+        <ul>
+          <li>Reserve your display name</li>
+          <li>Join the discussion on our <a href="https://ayphix.com/forums/index.php?/forum/23-mpact/" target="_blank">Forums</a></li>
+          <li>Entry to the game after the Founders exclusive period</li>
+        </ul>
+      </div>
+      <div class="sign-form col-sm-4">
+        <form id="register-form">
+          <div class="form-group">
+            <img src="/images/display-name.svg" /><input type="text" class="form-control first-focus" id="register-username" aria-describedby="nameHelp" placeholder="Display Name">
+            <!--<small id="nameHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+          </div>
+          <div class="form-group">
+            <img src="/images/email.svg" /><input type="email" class="form-control" id="register-email" aria-describedby="emailHelp" placeholder="Email Address">
+            <small class="form-text invalid-feedback email-address-taken" style="display: none">Email address already in use.</small>
+            <!--<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+          </div>
+          <div class="form-group">
+            <img src="/images/password.svg" /><input type="password" class="form-control" id="register-password" aria-describedby="passwordHelp1" placeholder="Password">
+            <!--<small id="passwordHelp1" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+          </div>
+          <div class="form-group">
+            <img src="/static/images/confirm-password.svg" /><input type="password" class="form-control" id="register-password-confirm" aria-describedby="passwordHelp2" placeholder="Confirm Password">
+            <!--<small id="passwordHelp2" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input id="iaccept" type="checkbox" class="form-check-input">
+              I agree with the <a href="/terms" target="_blank">privacy policy</a>.
+            </label>
+          </div>
+          <button id="create-account-button" type="submit" class="btn btn-primary" alt-text="Creating Account...">Create Account</button>
+        </form>
+        <p class="text-center">Already have an account? Login <a class="open-lightbox" href="javascript:;" data-id="#lightbox-sign-in">here</a>.</p>
+      </div>
+    </div>
+  </div>
+  <div id="lightbox-change-password" class="lightbox-screen">
+    <div class="lightbox-header">
+      <h1>Change Password</h1>
+    </div>
+    <div class="row">
+      <div class="offset-sm-4 col-sm-4">
+        <form id="change-password-form">
+          <div class="form-group">
+            <img src="/static/images/password.svg" /><input type="password" class="form-control" id="inputCurrentPasswordChangePassword" aria-describedby="passwordHelp1" placeholder="Current Password">
+            <!--<small id="passwordHelp1" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+          </div>
+          <div class="form-group">
+            <img src="/static/images/password.svg" /><input type="password" class="form-control" id="inputNewPasswordChangePassword" aria-describedby="passwordHelp1" placeholder="New Password">
+            <!--<small id="passwordHelp1" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+          </div>
+          <div class="form-group">
+            <img src="/static/images/confirm-password.svg" /><input type="password" class="form-control" id="inputConfirmNewPasswordChangePassword" aria-describedby="passwordHelp1" placeholder="Confirm New Password">
+            <!--<small id="passwordHelp1" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <p>Your password has successfully been changed.</p>
+      </div>
+    </div>
+  </div>
+  <div id="lightbox-change-email" class="lightbox-screen">
+    <div class="lightbox-header">
+      <h1>Change Email</h1>
+    </div>
+    <div class="row">
+      <div class="offset-sm-4 col-sm-4">
+        <form id="change-email-form">
+          <div class="form-group">
+            <img src="/static/images/password.svg" /><input type="password" class="form-control first-focus" id="inputEmailChangePassword" aria-describedby="passwordHelp1" placeholder="Current Password">
+          </div>
+          <div class="form-group">
+            <img src="/static/images/email.svg" /><input type="email" class="form-control first-focus" id="inputEmailChangeEmail" aria-describedby="emailHelp" placeholder="New Email">
+          </div>
+          <div class="form-group">
+            <img src="/static/images/email.svg" /><input type="email" class="form-control first-focus" id="inputConfirmEmailChangeEmail" aria-describedby="emailHelp" placeholder="Confirm New Email">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <p class="text-center">Already have an account? Login <a href="">here</a>.</p>
+        <p id="email-change-success" style="display: none">Your email has successfully been changed. Please check your inbox to verify your new email.</p>
+      </div>
+    </div>
+  </div>
+  <div id="lightbox-forgot-password" class="lightbox-screen">
+    <div class="lightbox-header">
+      <h1>Forgotten Password</h1>
+    </div>
+    <div class="row">
+      <div class="offset-sm-4 col-sm-4">
+        <form>
+          <div class="form-group">
+            <img src="/static/images/email.svg" /><input type="email" class="form-control first-focus" id="inputEmailForgotPassword" aria-describedby="emailHelp" placeholder="Email">
+            <small id="forgot-password-feedback" class="form-text invalid-feedback">Invalid email address</small>
+          </div>
+          <button id="forgot-password-submit" type="submit" class="btn btn-primary" alt-text="Submitting...">Submit</button>
+        </form>
+        <p id="forgot-password-success" style="display: none">We've sent an email with instructions on how you can reset your password.</p>
+      </div>
+    </div>
+  </div>
+  <div id="lightbox-delete-comment" class="lightbox-screen">
+    <div class="lightbox-header">
+      <h1>Remove Comment</h1>
+    </div>
+    <div class="row">
+      <div class="offset-sm-4 col-sm-4">
+        <p>Are you sure you want to remove this comment?</p>
+        <button id="comment-delete-confirm" type="submit" class="btn btn-primary">Yes, remove the comment</button>
+        <button id="comment-delete-cancel" type="submit" class="btn btn-primary">Cancel</button>
+      </div>
+    </div>
+  </div>
+  <div id="lightbox-transaction-history" class="lightbox-screen">
+    <div class="lightbox-header">
+      <h1>Transaction History</h1>
+    </div>
+    <div id="transaction-items" class="row">
+      <div class="offset-sm-1 col-sm-10">
+
+
+      </div>
+      <button onclick="closeLightbox()" type="submit" class="btn btn-primary">Done</button>
+    </div>
+  </div>
+  <div id="lightbox-validate-email" class="lightbox-screen">
+    <div class="lightbox-header">
+      <h1>Validate Email</h1>
+    </div>
+    <div id="transaction-items" class="row">
+      <div class="offset-sm-1 col-sm-10">
+        <p>We have sent you an email to your registered address with a validation link. Please follow that link to validate your email address.</p>
+      </div>
+      <button onclick="closeLightbox()" type="submit" class="btn btn-primary">Done</button>
+    </div>
+  </div>
+  <div id="lightbox-sign-up-success" class="lightbox-screen">
+    <div class="lightbox-header">
+      <h1>Thank you and Welcome!</h1>
+    </div>
+    <div id="sign-up-success" class="row">
+      <div class="col-sm-12 text-center">
+        <p>You have successfully created an account.</p>
+
+      </div>
+      <button type="submit" class="btn btn-primary">Continue</button>
+    </div>
+  </div>
+  <div id="lightbox-change-icon" class="lightbox-screen">
+    <div class="lightbox-header">
+      <h1>Icon Select</h1>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <p>Select your account icon from the choices below.</p>
+        <ul>
+
+        </ul>
+        <button id="save-icon" type="submit" class="btn btn-primary">Save</button>
+        <button class="btn btn-primary close-lightbox">Cancel</button>
+      </div>
+    </div>
+  </div>
+  <div id="lightbox-logout-success" class="lightbox-screen">
+    <div class="lightbox-header">
+      <h1>Logged Out</h1>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <p>You have successfully logged out.</p>
+        <button class="btn btn-primary close-lightbox">Continue</button>
+      </div>
+    </div>
+  </div>
+  <div id="lightbox-email-confirmed" class="lightbox-screen">
+    <div class="lightbox-header">
+      <h1>Email Validation</h1>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <p>Thank you for validating your email address.</p>
+        <button class="btn btn-primary close-lightbox">Continue</button>
+      </div>
+    </div>
+  </div>
+  <div id="lightbox-discord-oauth" class="lightbox-screen">
+    <div class="lightbox-header">
+      <h1>Discord Account Link</h1>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <p>Congratulations! Your discord is linked to your Mavericks account, and you've been given the Founder role.</p>
+        <button class="btn btn-primary close-lightbox">Continue</button>
+      </div>
+    </div>
+  </div>
+  <div id="lightbox-invite-save" class="lightbox-screen">
+    <div class="lightbox-header">
+      <h1>Application Saved</h1>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <p>Thank you! You will hear from us in the coming weeks about when you'll be getting access to 'The Arena'.</p>
+        <button class="btn btn-primary close-lightbox">Continue</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</html>
